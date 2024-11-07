@@ -1,5 +1,3 @@
-# create-vlan-debian
-Script para criação de vlans temporárias para distros Debian.
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
