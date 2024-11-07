@@ -3,34 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Configuração de VLAN no Debian</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      background-color: #f4f4f4;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    pre {
-      background-color: #eee;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    code {
-      font-family: monospace;
-      background-color: #f4f4f4;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .important {
-      color: #d9534f;
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
   <h1>Script de Configuração de VLAN no Debian</h1>
