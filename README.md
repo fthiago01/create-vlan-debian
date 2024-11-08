@@ -45,11 +45,14 @@ sudo apt install vlan ipcalc
   <h3>Instalação do Script</h3>
   <p>Baixe ou clone o repositório que contém o script <code>vlan_config.sh</code>.</p>
   <pre>
-git clone <URL do repositório>
-cd <diretório do repositório>
+cd /tmp
+git clone [<URL do repositório>](https://github.com/fthiago01/create-vlan-debian.git)
+cd create-vlan-debian
+sudo mv criar_vlan.sh ~/create_vlan.sh
+cd
   </pre>
   <p>Após ter o script no seu sistema, é necessário conceder permissão de execução:</p>
-  <pre>chmod +x vlan_config.sh</pre>
+  <pre>sudo chmod +x create_vlan.sh</pre>
   <p>Agora você pode rodar o script diretamente no terminal com:</p>
   <pre>./vlan_config.sh</pre>
   <p>Se você precisar de permissões de superusuário (root) para realizar algumas ações, como criar ou remover VLANs, execute o script com sudo:</p>
